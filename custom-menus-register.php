@@ -35,7 +35,7 @@ function register_custom_theme_menus() {
  
 function print_custom_theme_first(){
 	global $post;
-	if ($post->ID==8) {//Change the post id
+	if ($post->ID==99999999999) {//Change the post id
 		printf(_('<div id="custom-theme-first" class="navbar-style-three wpex-dropdowns-caret clr custom-theme-first">'));
 		wp_nav_menu( array(
 		'theme_location' => 'custom_theme_first',
@@ -53,7 +53,7 @@ function print_custom_theme_first(){
 
 function print_custom_theme_second(){
 	global $post;
-	if ($post->ID==17) {//Change the post id
+	if ($post->ID==999999999999999999999) {//Change the post id
 		printf(_('<div id="custom-theme-second" class="navbar-style-three wpex-dropdowns-caret clr custom-menu-second">'));
 		wp_nav_menu( array( 
 		'theme_location' => 'custom_theme_second',
@@ -71,7 +71,7 @@ function print_custom_theme_second(){
 
 function print_custom_theme_third(){
 	global $post;
-	if ($post->ID==10) {//Change the post id
+	if ($post->ID==99999999999999999) {//Change the post id
 		printf(_('<div id="custom-theme-third" class="navbar-style-three wpex-dropdowns-caret clr custom-menu-third">'));
 		wp_nav_menu( array( 
 		'theme_location' => 'custom_theme_third',
@@ -89,7 +89,7 @@ function print_custom_theme_third(){
 /*
 function print_custom_theme_fourth(){
         global $post;
-        if ($post->ID==10) {//Change the post id
+        if ($post->ID==9999999999999999999) {//Change the post id
                 printf(_('<div id="custom-theme-fourth" class="navbar-style-three wpex-dropdowns-caret clr custom-menu-third">'));
                 wp_nav_menu( array(
                 'theme_location' => 'custom_theme_fourth',
